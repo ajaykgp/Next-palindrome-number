@@ -1,3 +1,12 @@
+/*
+
+This program takes a natural number as input and computes
+the smallest palindrome number greater than the input. It doesn't
+compute the correct output for a number having all 9's. For such numbers
+the correct output is input + 2.
+
+*/
+
 #include <stdio.h>
 #define MAX 50
 
