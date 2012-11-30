@@ -12,7 +12,7 @@ the correct output is input + 2.
 
 void nextPalindrome(char s[], int length);
 
-int main()
+int main(void)
 {
 	char c, s[MAX];
 	int i = 0, length;
