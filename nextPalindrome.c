@@ -60,7 +60,7 @@ void nextPalindrome(char s[], int length)
 				s[j] = '0';
 				i--;
 				j++;
-			}while((i >= 0) && (j < length) && (s[i] == '9') && (s[j] == '9'));
+			} while((i >= 0) && (j < length) && (s[i] == '9') && (s[j] == '9'));
 			s[i]++;
 			s[j]++;
 		}
